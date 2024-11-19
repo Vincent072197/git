@@ -1,3 +1,13 @@
 body{
     background-color: #e68282;
 }
+
+div:nth-child(1n+1){
+    background-color: aqua;
+    
+}
+
+a::after{
+    content: text;
+    color: #e68282;
+}
