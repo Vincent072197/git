@@ -1,0 +1,20 @@
+body {
+  font-size: 20px;
+  margin-top: 60px;
+  background-color: red;
+}
+
+.wrapper ul {
+  list-style: none;
+}
+.wrapper ul li {
+  color: aquamarine;
+}
+.wrapper ul li a {
+  text-decoration: none;
+}
+.wrapper ul li:hover {
+  color: red;
+}
+
+/*# sourceMappingURL=style.css.map */

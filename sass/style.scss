@@ -1,0 +1,27 @@
+@import 'base/var';
+@import './layout/footer';
+@import './layout/header';
+@import './layout/nav';
+
+
+
+body{
+    font-size: $a;
+    margin-top: $b;
+    background-color: $color;
+}
+
+.wrapper{
+    ul{
+        list-style: none;
+        li{
+            color: aquamarine;
+            a{
+                text-decoration: none;
+            }
+        }
+        li:hover{
+            color: red;
+        }
+    }
+}
